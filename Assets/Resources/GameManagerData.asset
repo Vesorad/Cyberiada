@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3b845f0354b3c0499646f4e03e99bef, type: 3}
+  m_Name: GameManagerData
+  m_EditorClassIdentifier: Assembly-CSharp::GameManagerData
+  <SpeedIncreasePerPoint>k__BackingField: 0.03
+  <MaxGameSpeed>k__BackingField: 2
+  <BotEnabled>k__BackingField: 1
+  <PipeScrollSpeed>k__BackingField: 3
+  <PipeSpawnInterval>k__BackingField: 3
+  <FirstPipeDelay>k__BackingField: 1
+  <PipeDestroyX>k__BackingField: -12
+  <PipeSpawnYRange>k__BackingField: 3
+  <FlapForce>k__BackingField: 5
+  <MaxFallSpeed>k__BackingField: -10
+  <BirdMinAngle>k__BackingField: -90
+  <BirdMaxAngle>k__BackingField: 30
+  <PipeSlideInEnabled>k__BackingField: 1
+  <PipeSlideInDuration>k__BackingField: 0.3
+  <PipeSlideInCurve>k__BackingField:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.46947098
+      value: 0.014770508
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  <CameraShakeDuration>k__BackingField: 0.3
+  <CameraShakeMagnitude>k__BackingField: 0.2
