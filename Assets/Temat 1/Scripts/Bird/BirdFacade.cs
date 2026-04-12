@@ -7,7 +7,10 @@ public class BirdFacade : MonoBehaviour
     [SerializeField] private Rigidbody2D m_rb;
 
     private Animator m_animator;
+    private Transform m_visualTransform;
+    private Vector3 m_baseScale;
     private bool m_isAlive = true;
+
 
     private void Reset()
     {
@@ -17,6 +20,9 @@ public class BirdFacade : MonoBehaviour
     private void Awake()
     {
         m_animator = Instantiate(AssetsManager.Get.BirdBodyPrefab, transform);
+        m_visualTransform = m_animator.transform;
+        m_baseScale = m_animator.transform.localScale;
+
     }
 
     private void Start()
@@ -33,7 +39,7 @@ public class BirdFacade : MonoBehaviour
     {
         GameManager.Get.OnGameStarted -= OnGameStarted;
     }
-    
+
 
     private void OnGameStarted()
     {
@@ -65,7 +71,7 @@ public class BirdFacade : MonoBehaviour
 
     private void UpdateRotation()
     {
-      
+
     }
 
     private void HandleInput()
