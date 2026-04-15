@@ -15,5 +15,6 @@ public class SingleUpdaterObject : MonoBehaviour
     private void DoWork()
     {
         float _ = Mathf.Sin(Time.time);
+        Debug.Log(_);
     }
 }

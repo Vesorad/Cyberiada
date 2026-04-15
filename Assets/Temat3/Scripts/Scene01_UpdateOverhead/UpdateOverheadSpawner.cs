@@ -48,26 +48,18 @@ public class UpdateOverheadSpawner : MonoBehaviour
         {
             float x = Random.Range(-m_spawnArea.x / 2f, m_spawnArea.x / 2f);
             float y = Random.Range(-m_spawnArea.y / 2f, m_spawnArea.y / 2f);
-            var go = m_prefab != null
-                ? Instantiate(m_prefab, new Vector3(x, y, 0f), Quaternion.identity)
-                : new GameObject($"{typeof(T).Name}_{i}");
+            float z = Random.Range(0 / 2f, 15);
+
+            var go = Instantiate(m_prefab, new Vector3(x, y, z), Quaternion.identity);
             go.name = $"{typeof(T).Name}_{i}";
-            if (go.GetComponent<T>() == null)
-            {
-                go.AddComponent<T>();
-            }
+            go.AddComponent<T>();
         }
     }
 
     private void SpawnSingle()
     {
-        var go = m_prefab != null
-            ? Instantiate(m_prefab, Vector3.zero, Quaternion.identity)
-            : new GameObject("SingleUpdater");
+        var go = Instantiate(m_prefab, Vector3.zero, Quaternion.identity);
         go.name = "SingleUpdater";
-        if (go.GetComponent<SingleUpdaterObject>() == null)
-        {
-            go.AddComponent<SingleUpdaterObject>();
-        }
+        go.AddComponent<SingleUpdaterObject>();
     }
 }

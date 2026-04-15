@@ -135,7 +135,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1335520191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,9 +148,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd92e7dbe9fcce49acc6cac0018137e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ProjectilePrefab: {fileID: 6997480550305111475, guid: f205c48f94f77aa498a8d66a5a2b9777, type: 3}
-  m_Lifetime: 2
-  m_SpawnInterval: 0.01
+  m_projectilePrefab: {fileID: 7390116076712043967, guid: 865190f5b4384fe4ba9d5221600655ab, type: 3}
+  m_lifetime: 2
+  m_spawnInterval: 0.05
 --- !u!4 &1335520192
 Transform:
   m_ObjectHideFlags: 0
@@ -182,7 +182,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1764711346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,9 +195,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bc6c0af69b4fbc41b3e048da2770637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ProjectilePrefab: {fileID: 3379019218637063767, guid: dc5ce133124ee954a969c945798e8b64, type: 3}
-  m_InitialPoolSize: 200
-  m_SpawnInterval: 0.01
+  m_projectilePrefab: {fileID: 3379019218637063767, guid: dc5ce133124ee954a969c945798e8b64, type: 3}
+  m_initialPoolSize: 30
+  m_spawnInterval: 0.05
 --- !u!4 &1764711347
 Transform:
   m_ObjectHideFlags: 0

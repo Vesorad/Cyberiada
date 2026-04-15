@@ -11,12 +11,6 @@ public class PhysicsOverheadSpawner : MonoBehaviour
 
     private Vector2 m_spawnArea;
 
-    private void Awake()
-    {
-        QualitySettings.vSyncCount = 0;
-        Application.targetFrameRate = 60;
-    }
-
     private void Start()
     {
         var cam = Camera.main;
@@ -40,25 +34,17 @@ public class PhysicsOverheadSpawner : MonoBehaviour
         go.name = $"PhysicsObj_{index}";
         go.transform.position = new Vector3(x, y, 0f);
 
-        if (go.GetComponent<BoxCollider2D>() == null)
-        {
-            go.AddComponent<BoxCollider2D>();
-        }
-
-        if (go.GetComponent<MovingPhysicsObject>() == null)
-        {
-            go.AddComponent<MovingPhysicsObject>();
-        }
+        go.AddComponent<BoxCollider2D>();
+        go.AddComponent<MovingPhysicsObject>();
 
         if (m_mode == PhysicsMode.KinematicRigidbody)
         {
-            if (!go.TryGetComponent(out Rigidbody2D rb))
-            {
-                rb = go.AddComponent<Rigidbody2D>();
-            }
+          var  rb = go.AddComponent<Rigidbody2D>();
 
+            //rb.isKinematic = true;
+            //rb.useGravity = false;
             rb.bodyType = RigidbodyType2D.Kinematic;
-            rb.gravityScale = 0f;
+            rb.gravityScale = 0;
         }
     }
 }

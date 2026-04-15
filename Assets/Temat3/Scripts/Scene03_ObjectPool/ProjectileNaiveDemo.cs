@@ -50,6 +50,7 @@ public class ProjectileNaiveDemo : MonoBehaviour
             Random.Range(-m_spawnArea.x / 2f, m_spawnArea.x / 2f),
             Random.Range(-m_spawnArea.y / 2f, m_spawnArea.y / 2f),
             0f);
+
         var go = Instantiate(m_projectilePrefab, pos, Quaternion.identity);
         Destroy(go, m_lifetime);
     }
