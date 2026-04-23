@@ -1,12 +1,15 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Serialization;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class BirdFacade : MonoBehaviour
 {
-    [SerializeField] private Rigidbody2D m_rb;
+    [SerializeField] private Rigidbody2D m_rb = null;
 
-    private Animator m_animator;
+    [FormerlySerializedAs("m_animator")] [SerializeField]
+    private Animator m_animatorBody = null;
+
     private Transform m_visualTransform;
     private Vector3 m_baseScale;
     private bool m_isAlive = true;
@@ -19,10 +22,15 @@ public class BirdFacade : MonoBehaviour
 
     private void Awake()
     {
-        m_animator = Instantiate(AssetsManager.Get.BirdBodyPrefab, transform);
-        m_visualTransform = m_animator.transform;
-        m_baseScale = m_animator.transform.localScale;
-
+        m_visualTransform = m_animatorBody.transform;
+        if (m_animatorBody != null)
+        {
+            m_baseScale = m_animatorBody.transform.localScale;
+        }
+        else
+        {
+            Debug.LogError("Animator Body is not assigned in the inspector!", this);
+        }
     }
 
     private void Start()
@@ -71,7 +79,6 @@ public class BirdFacade : MonoBehaviour
 
     private void UpdateRotation()
     {
-
     }
 
     private void HandleInput()

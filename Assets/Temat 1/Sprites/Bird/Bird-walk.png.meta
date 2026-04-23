@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: e7faf24c6c4a6f24e814f1897cd58174
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4260194912380960039
+    second: Bird-walk_0
+  - first:
+      213: -4012565486809019022
+    second: Bird-walk_1
+  - first:
+      213: -8965783427915951030
+    second: Bird-walk_2
+  - first:
+      213: -5449359589616590275
+    second: Bird-walk_3
+  - first:
+      213: 567621937602443218
+    second: Bird-walk_4
+  - first:
+      213: -857258312554996211
+    second: Bird-walk_5
+  - first:
+      213: -555637557306869087
+    second: Bird-walk_6
+  - first:
+      213: -7935612200229999184
+    second: Bird-walk_7
+  - first:
+      213: 2771263870651966753
+    second: Bird-walk_8
+  - first:
+      213: 3012896315319960691
+    second: Bird-walk_9
+  - first:
+      213: 4319226394240315662
+    second: Bird-walk_10
+  - first:
+      213: 6346417334713097588
+    second: Bird-walk_11
+  - first:
+      213: -7321964595983278557
+    second: Bird-walk_12
+  - first:
+      213: -4640249767013110308
+    second: Bird-walk_13
+  - first:
+      213: 7149769667486079558
+    second: Bird-walk_14
+  - first:
+      213: -2832449551645787271
+    second: Bird-walk_15
+  - first:
+      213: -866563736731005575
+    second: Bird-walk_16
+  - first:
+      213: -586218191666658241
+    second: Bird-walk_17
+  - first:
+      213: 1634224446251588063
+    second: Bird-walk_18
+  - first:
+      213: 6124247290984054145
+    second: Bird-walk_19
+  - first:
+      213: -3837094101499853813
+    second: Bird-walk_20
+  - first:
+      213: 5417225422600443359
+    second: Bird-walk_21
+  - first:
+      213: -2773249978521508494
+    second: Bird-walk_22
+  - first:
+      213: 8881697983643994123
+    second: Bird-walk_23
+  - first:
+      213: -8172366753478235392
+    second: Bird-walk_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bird-walk_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1117
+        width: 97
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72db46a83b04f1b30800000000000000
+      internalID: 4260194912380960039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird-walk_1
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1116
+        width: 97
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d81c003f08058c0800000000000000
+      internalID: -4012565486809019022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird-walk_2
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1115
+        width: 97
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a445cfd9973239380800000000000000
+      internalID: -8965783427915951030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird-walk_3
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1115
+        width: 98
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32e88f335cff54b0800000000000000
+      internalID: -5449359589616590275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird-walk_4
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1099
+        width: 98
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d73385152990e700800000000000000
+      internalID: 567621937602443218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird-walk_5
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 844
+        width: 98
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e986f4b186a14f0800000000000000
+      internalID: -857258312554996211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird-walk_6
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 863
+        width: 98
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aabbd4e59af948f0800000000000000
+      internalID: -555637557306869087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird-walk_7
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 863
+        width: 98
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bde802afba0fd190800000000000000
+      internalID: -7935612200229999184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird-walk_8
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 861
+        width: 98
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125a51dbec1857620800000000000000
+      internalID: 2771263870651966753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird-walk_9
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 859
+        width: 97
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374cabb5c35ffc920800000000000000
+      internalID: 3012896315319960691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird-walk_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 603
+        width: 97
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e017f257589f0fb30800000000000000
+      internalID: 4319226394240315662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird-walk_11
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 589
+        width: 92
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d94ffe0f0031850800000000000000
+      internalID: 6346417334713097588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird-walk_12
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 597
+        width: 92
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e1e6e4ef7236a90800000000000000
+      internalID: -7321964595983278557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird-walk_13
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 606
+        width: 97
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd28180c658a9fb0800000000000000
+      internalID: -4640249767013110308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird-walk_14
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 605
+        width: 98
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ade58a1a5193360800000000000000
+      internalID: 7149769667486079558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird-walk_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 347
+        width: 97
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b30f5c32e11b8d0800000000000000
+      internalID: -2832449551645787271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird-walk_16
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 347
+        width: 97
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97dc9e86fd859f3f0800000000000000
+      internalID: -866563736731005575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird-walk_17
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 334
+        width: 98
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3446dc19a55dd7f0800000000000000
+      internalID: -586218191666658241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird-walk_18
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 334
+        width: 98
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9d512b97eeda610800000000000000
+      internalID: 1634224446251588063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird-walk_19
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 351
+        width: 98
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18db0c7a672bdf450800000000000000
+      internalID: 6124247290984054145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird-walk_20
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 95
+        width: 98
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04ca569e37efbac0800000000000000
+      internalID: -3837094101499853813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird-walk_21
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 93
+        width: 98
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd59056f1d9dd2b40800000000000000
+      internalID: 5417225422600443359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird-walk_22
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 92
+        width: 98
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275addc76df6389d0800000000000000
+      internalID: -2773249978521508494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird-walk_23
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 84
+        width: 98
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0847654241224b70800000000000000
+      internalID: 8881697983643994123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird-walk_24
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 77
+        width: 92
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ba7bc9cbbe59e80800000000000000
+      internalID: -8172366753478235392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bird-walk_0: 4260194912380960039
+      Bird-walk_1: -4012565486809019022
+      Bird-walk_10: 4319226394240315662
+      Bird-walk_11: 6346417334713097588
+      Bird-walk_12: -7321964595983278557
+      Bird-walk_13: -4640249767013110308
+      Bird-walk_14: 7149769667486079558
+      Bird-walk_15: -2832449551645787271
+      Bird-walk_16: -866563736731005575
+      Bird-walk_17: -586218191666658241
+      Bird-walk_18: 1634224446251588063
+      Bird-walk_19: 6124247290984054145
+      Bird-walk_2: -8965783427915951030
+      Bird-walk_20: -3837094101499853813
+      Bird-walk_21: 5417225422600443359
+      Bird-walk_22: -2773249978521508494
+      Bird-walk_23: 8881697983643994123
+      Bird-walk_24: -8172366753478235392
+      Bird-walk_3: -5449359589616590275
+      Bird-walk_4: 567621937602443218
+      Bird-walk_5: -857258312554996211
+      Bird-walk_6: -555637557306869087
+      Bird-walk_7: -7935612200229999184
+      Bird-walk_8: 2771263870651966753
+      Bird-walk_9: 3012896315319960691
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

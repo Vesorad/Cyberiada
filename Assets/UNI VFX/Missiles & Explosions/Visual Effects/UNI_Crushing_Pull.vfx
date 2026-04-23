@@ -16,9 +16,9 @@ MonoBehaviour:
   - title: Event Controller
     position:
       serializedVersion: 2
-      x: 1536
+      x: 1632
       y: -2531
-      width: 2027
+      width: 1931
       height: 718
     contents:
     - model: {fileID: 8926484042661614596}
@@ -852,19 +852,19 @@ MonoBehaviour:
   stickyNoteInfos: []
   categories:
   - name: MainVFX
-    collapsed: 0
+    collapsed: 1
   - name: Create
     collapsed: 1
   - name: Loop
     collapsed: 1
   - name: Hit
-    collapsed: 0
+    collapsed: 1
   uiBounds:
     serializedVersion: 2
     x: -5218
     y: -4285
     width: 17061
-    height: 6373
+    height: 6406
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1865,7 +1865,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 1561, y: -2238}
+  m_UIPosition: {x: 1657, y: -2324}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -1945,7 +1945,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 2408, y: -2397}
+  m_UIPosition: {x: 2242, y: -2377}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -2131,7 +2131,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 0
+  m_UICollapsed: 1
   m_UISuperCollapsed: 0
   m_InputSlots: []
   m_OutputSlots:
