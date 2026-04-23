@@ -16,7 +16,9 @@ public class GameManagerData : SingletonScriptableObject<GameManagerData>
     [field: SerializeField,Range(3,5)] public float PipeSpawnInterval { get; private set; } = 2f;
     [field: SerializeField,Range(0,5)] public float FirstPipeDelay { get; private set; } = 1f;
     [field: SerializeField] public float PipeDestroyX { get; private set; } = -12f;
-    [field: SerializeField, Range(0f, 10f)] public float PipeSpawnYRange { get; private set; } = 3f;
+    [field: SerializeField, Range(0f, 10f)] public float PipeSpawnYRange { get; private set; } = 3f; 
+    [field: SerializeField, Range(0f, 10f)] public float PipeSlideInTime { get; private set; } =.5f; 
+
 
     [field: Header("Bird")]
     [field: SerializeField] public float FlapForce { get; private set; } = 5f;
