@@ -6,14 +6,11 @@ using UnityEngine.Serialization;
 public class BirdFacade : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D m_rb = null;
-
-    [FormerlySerializedAs("m_animator")] [SerializeField]
-    private Animator m_animatorBody = null;
+    [SerializeField] private Animator m_animatorBody = null;
 
     private Transform m_visualTransform;
     private Vector3 m_baseScale;
     private bool m_isAlive = true;
-
 
     private void Reset()
     {
