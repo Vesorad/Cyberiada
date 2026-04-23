@@ -24,6 +24,7 @@ public class Pipe : PoolObject
 
         if (GameManagerData.Get.PipeSlideInEnabled)
         {
+            StartCoroutine(PipeSlide());
         }
         else
         {
@@ -34,10 +35,32 @@ public class Pipe : PoolObject
 
     protected override void OnDeactivate()
     {
-        StopAllCoroutines();
+
     }
 
+    private IEnumerator PipeSlide()
+    {
+        float halfScreen = Camera.main.orthographicSize;
+        float duration = GameManagerData.Get.PipeSlideInTime;
 
+        Vector3 topFrom = m_topPipeOriginalLocalPos + Vector3.up * halfScreen;
+        Vector3 bottomFrom = m_bottomPipeOriginalLocalPos + Vector3.down * halfScreen;
+
+        m_topPipe.localPosition = topFrom;
+        m_bottomPipe.localPosition = bottomFrom;
+
+        float elapsed = 0f;
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            float t = elapsed / duration;
+
+            m_topPipe.localPosition = Vector3.Lerp(topFrom, m_topPipeOriginalLocalPos, t);
+            m_bottomPipe.localPosition = Vector3.Lerp(bottomFrom, m_bottomPipeOriginalLocalPos, t);
+
+            yield return null;
+        }
+    }
     private void Update()
     {
         if (IsActive == false || GameManager.Get.CurrentState != GameState.Playing)
