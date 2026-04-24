@@ -5,12 +5,16 @@ using UnityEngine.Serialization;
 [RequireComponent(typeof(Rigidbody2D))]
 public class BirdFacade : MonoBehaviour
 {
+    private const float FLAP_DURATION = 1.5f;
+
+
     [SerializeField] private Rigidbody2D m_rb = null;
     [SerializeField] private Animator m_animatorBody = null;
 
     private Transform m_visualTransform;
     private Vector3 m_baseScale;
     private bool m_isAlive = true;
+    private float m_flapTimer = 0f;
 
     private void Reset()
     {
@@ -59,7 +63,7 @@ public class BirdFacade : MonoBehaviour
         {
             return;
         }
-
+        m_flapTimer = Mathf.Max(m_flapTimer - Time.deltaTime, 0f);
         HandleInput();
         UpdateRotation();
     }
@@ -76,6 +80,9 @@ public class BirdFacade : MonoBehaviour
 
     private void UpdateRotation()
     {
+        float progress = m_flapTimer / FLAP_DURATION;
+        float angle = Mathf.Lerp(GameManagerData.Get.BirdMinAngle, GameManagerData.Get.BirdMaxAngle, progress);
+        m_visualTransform.localRotation = Quaternion.Euler(0f, 0f, angle);
     }
 
     private void HandleInput()
@@ -107,6 +114,7 @@ public class BirdFacade : MonoBehaviour
     public void TriggerFlap()
     {
         m_rb.linearVelocity = new Vector2(0f, GameManagerData.Get.FlapForce);
+        m_flapTimer = FLAP_DURATION;
     }
 
     private void Die()
