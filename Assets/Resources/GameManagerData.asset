@@ -20,6 +20,7 @@ MonoBehaviour:
   <FirstPipeDelay>k__BackingField: 1
   <PipeDestroyX>k__BackingField: -12
   <PipeSpawnYRange>k__BackingField: 3
+  <PipeSlideInTime>k__BackingField: 0.5
   <FlapForce>k__BackingField: 5
   <MaxFallSpeed>k__BackingField: -10
   <BirdMinAngle>k__BackingField: -90

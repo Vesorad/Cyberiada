@@ -212,6 +212,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bird Core
       objectReference: {fileID: 0}
+    - target: {fileID: 1201408413711666781, guid: 3d79d21b9ffaa8e47b1df80512d148a3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

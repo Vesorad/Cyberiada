@@ -30,6 +30,7 @@ public class ScrollingBackground : MonoBehaviour
 
     private void Scroll()
     {
+
         float speed = GameManagerData.Get.PipeScrollSpeed * GameManager.Get.GameSpeed;
         m_offset = (m_offset + speed * m_scrollScale * Time.deltaTime) % 1f;
         m_material.mainTextureOffset = new Vector2(m_offset, 0f);

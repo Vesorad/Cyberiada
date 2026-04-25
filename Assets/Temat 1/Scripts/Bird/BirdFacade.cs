@@ -1,3 +1,4 @@
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Serialization;
@@ -5,6 +6,7 @@ using UnityEngine.Serialization;
 [RequireComponent(typeof(Rigidbody2D))]
 public class BirdFacade : MonoBehaviour
 {
+    private static readonly int Anim = Animator.StringToHash("Anim");
     private const float FLAP_DURATION = 1.5f;
 
 
@@ -65,7 +67,7 @@ public class BirdFacade : MonoBehaviour
         }
         m_flapTimer = Mathf.Max(m_flapTimer - Time.deltaTime, 0f);
         HandleInput();
-        UpdateRotation();
+      // UpdateRotation();
     }
 
     private void FixedUpdate()
@@ -77,12 +79,17 @@ public class BirdFacade : MonoBehaviour
 
         ClampFallSpeed();
     }
-
+Tween m_tween = null;
+private Vector3 minAngle = new Vector3(0, 0, GameManagerData.Get.BirdMinAngle);
+private Vector3 maxAngle = new Vector3(0, 0, GameManagerData.Get.BirdMaxAngle);
     private void UpdateRotation()
     {
-        float progress = m_flapTimer / FLAP_DURATION;
+        /*float progress = m_flapTimer / FLAP_DURATION;
         float angle = Mathf.Lerp(GameManagerData.Get.BirdMinAngle, GameManagerData.Get.BirdMaxAngle, progress);
-        m_visualTransform.localRotation = Quaternion.Euler(0f, 0f, angle);
+        m_visualTransform.localRotation = Quaternion.Euler(0f, 0f, angle);*/
+        m_tween?.Kill();
+
+        m_tween = m_visualTransform.DORotate(minAngle, FLAP_DURATION).From(maxAngle);
     }
 
     private void HandleInput()
@@ -115,6 +122,8 @@ public class BirdFacade : MonoBehaviour
     {
         m_rb.linearVelocity = new Vector2(0f, GameManagerData.Get.FlapForce);
         m_flapTimer = FLAP_DURATION;
+        m_animatorBody.SetTrigger(Anim);
+        UpdateRotation();
     }
 
     private void Die()
