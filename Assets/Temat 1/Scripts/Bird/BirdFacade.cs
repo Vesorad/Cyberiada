@@ -7,6 +7,15 @@ public class BirdFacade : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D m_rb = null;
     [SerializeField] private Animator m_animatorBody = null;
+    [SerializeField] private Rigidbody2D mssd_rb = null;
+    [SerializeField] private Animator m_animsdsdatorBody = null;
+
+    [SerializeField] private Rigidbody2D m_dddrb = null;
+    [SerializeField] private Animator m_animasdsdtorBody = null;
+
+    [SerializeField] private Rigidbody2D m_aaaarb = null;
+    [SerializeField] private Animator m_animatdddorBody = null;
+
 
     private Transform m_visualTransform;
     private Vector3 m_baseScale;
