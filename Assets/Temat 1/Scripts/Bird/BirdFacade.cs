@@ -10,6 +10,12 @@ public class BirdFacade : MonoBehaviour
 
     [SerializeField] private Rigidbody2D m_rb = null;
     [SerializeField] private Animator m_animatorBody = null;
+    [SerializeField] private Rigidbody2D m_ddrb = null;
+    [SerializeField] private Animator m_anidddmatorBody = null;
+    [SerializeField] private Rigidbody2D m_dddrb = null;
+    [SerializeField] private Animator m_aniddmatorBody = null;
+    [SerializeField] private Rigidbody2D m_dsssdrb = null;
+    [SerializeField] private Animator dd = null;
 
     private Transform m_visualTransform;
     private Vector3 m_baseScale;
@@ -55,6 +61,7 @@ public class BirdFacade : MonoBehaviour
         m_isAlive = true;
         m_rb.gravityScale = 1f;
         TriggerFlap();
+
     }
 
     private void Update()
