@@ -12,5 +12,6 @@ EditorBuildSettings:
     path: Assets/Temat3/Scenes/01_UpdateOverhead.unity
     guid: 55dfb486b9f46c945bf36ed8e50569d9
   m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: c2bfcd02620291646b11264603eb7e83, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
