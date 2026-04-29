@@ -12,6 +12,9 @@ public class BirdFacade : MonoBehaviour
 
     [SerializeField] private Rigidbody2D m_rb = null;
     [SerializeField] private Animator m_animatorBody = null;
+    [SerializeField] private Rigidbody2D m_sadasdadrb = null;
+    [SerializeField] private Animator asdasd = null;
+
 
     private Transform m_visualTransform;
     private Vector3 m_baseScale;
@@ -25,6 +28,10 @@ public class BirdFacade : MonoBehaviour
 
     private void Awake()
     {
+
+        Debug.Log("sadasd");
+        Debug.Log("sadasd");
+
         m_visualTransform = m_animatorBody.transform;
         if (m_animatorBody != null)
         {
